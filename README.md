@@ -11,25 +11,4 @@ A 16-mode Zernike wavefront is estimated from a two-channel (in-focus + defocuse
 
 Results are simulation-only, from one random seed and a reduced training profile.
 
-## Contents
 
-- `main.tex` - paper source
-- `references.bib` - BibTeX references
-- `images/` - figures (add the files below)
-
-## Figures needed in `images/`
-
-- `wavefront_reconstructions_comparison.png`
-- `ablation_channels.png`
-- `sweeps.png`
-
-Missing figures appear as placeholder boxes.
-
-## Build
-
-```
-pdflatex main
-bibtex main
-pdflatex main
-pdflatex main
-```
